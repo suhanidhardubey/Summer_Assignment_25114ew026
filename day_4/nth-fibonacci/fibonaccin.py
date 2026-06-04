@@ -1,7 +1,6 @@
-n = int(input("Enter the term number: "))
+n = int(input("Enter n: "))
 
-a = 0
-b = 1
+a, b = 0, 1
 
 if n == 1:
     print(a)
@@ -12,4 +11,4 @@ else:
         c = a + b
         a = b
         b = c
-    print("The", n, "th Fibonacci term is", b)
+    print(b)

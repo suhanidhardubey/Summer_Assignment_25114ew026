@@ -1,11 +1,9 @@
-start = int(input("Enter starting number: "))
-end = int(input("Enter ending number: "))
-
-print("Armstrong numbers are:")
+start = int(input("Enter start of range: "))
+end = int(input("Enter end of range: "))
 
 for num in range(start, end + 1):
-    digits = len(str(num))
     temp = num
+    digits = len(str(num))
     total = 0
 
     while temp > 0:
