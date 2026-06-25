@@ -1,0 +1,7 @@
+words = input("Enter words separated by space: ").split()
+
+words.sort(key=len)
+
+print("Words sorted by length:")
+for word in words:
+    print(word)
